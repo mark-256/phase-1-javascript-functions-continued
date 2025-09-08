@@ -15,3 +15,15 @@ function wrapAdjective(flair = "*") {
     return `You are ${flair}${adjective}${flair}!`;
   };
 }
+
+// Example calls (optional — remove or comment out before submitting if not required)
+console.log(saturdayFun());                       
+console.log(saturdayFun("go hiking"));            
+
+console.log(mondayWork());                        
+console.log(mondayWork("work from home"));        
+
+const encouragingPrompt = wrapAdjective("!!!");
+console.log(encouragingPrompt("amazing"));        
+
+console.log(wrapAdjective("%")("a dedicated programmer")); 
